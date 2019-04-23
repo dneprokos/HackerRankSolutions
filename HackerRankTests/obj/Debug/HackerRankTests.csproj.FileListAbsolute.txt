@@ -1,0 +1,12 @@
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\bin\Debug\HackerRankTests.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\bin\Debug\HackerRankTests.pdb
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\bin\Debug\HackerRankProblems.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\bin\Debug\nunit.framework.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\bin\Debug\HackerRankProblems.pdb
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\bin\Debug\nunit.framework.pdb
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\bin\Debug\nunit.framework.xml
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\obj\Debug\HackerRankTests.csprojAssemblyReference.cache
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\obj\Debug\HackerRankTests.csproj.CoreCompileInputs.cache
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\obj\Debug\HackerRankTests.csproj.CopyComplete
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\obj\Debug\HackerRankTests.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankTests\obj\Debug\HackerRankTests.pdb
