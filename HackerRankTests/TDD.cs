@@ -113,6 +113,22 @@ namespace HackerRankTests
         }
 
         [Test]
+        [TestCase(new int[] { 73, 67, 38, 33, 36 }, new int[] { 75, 67, 40, 33, 36 })]
+        public void GradingStudentsTest(int [] inputGrades, int [] expectedOutputGrades)
+        {
+            //Arrange
+
+            //Act
+            int [] actualGrades = GradingStudents.Start(inputGrades);
+
+            //Assert
+            Assert.AreEqual(expectedOutputGrades, actualGrades);
+        }
+
+
+        
+
+        [Test]
         public void DoesFileExistByPath()
         {
             //TODO: Implement logic where you should check if fileName exists by path,
