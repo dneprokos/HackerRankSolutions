@@ -84,6 +84,35 @@ namespace HackerRankTests
         }
 
         [Test]
+        [TestCase(new int[4] {4, 4, 1, 3 }, 2)]
+        public void BirthdayCakeCandlesTest(int [] candles, int expectedCount)
+        {
+            //Arrange
+
+            //Act
+            int tallestCount = BirthdayCakeCandles.getTallestCandles(candles);
+
+            //Assert
+            Assert.AreEqual(expectedCount, tallestCount);
+        }
+
+        [Test]
+        [TestCase("07:05:45AM", "07:05:45")]
+        [TestCase("07:05:45PM", "19:05:45")]
+        [TestCase("12:40:22AM", "00:40:22")]
+        [TestCase("12:40:22PM", "12:40:22")]
+        public void TimeConversionTest(string inputTime, string expectedFormat)
+        {
+            //Arrange
+
+            //Act
+            string outputTime = TimeConversion.ConvertToMillitaryFormat(inputTime);
+
+            //Assert
+            Assert.AreEqual(expectedFormat, outputTime);
+        }
+
+        [Test]
         public void DoesFileExistByPath()
         {
             //TODO: Implement logic where you should check if fileName exists by path,
