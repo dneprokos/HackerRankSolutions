@@ -42,11 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AggregationOperations.cs" />
+    <Compile Include="AppleOrangeFall.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />
     <Compile Include="DiagonalDifferenceProblem.cs" />
     <Compile Include="Exceptions\DateFormatNotFoundException.cs" />
     <Compile Include="GradingStudents.cs" />
     <Compile Include="IsTwin.cs" />
+    <Compile Include="Kangaroo.cs" />
     <Compile Include="MiniMaxSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Staircase.cs" />
