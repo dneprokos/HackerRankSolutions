@@ -1,6 +1,8 @@
 ﻿using HackerRankProblems;
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace HackerRankTests
 {
@@ -166,22 +168,53 @@ namespace HackerRankTests
             Assert.AreEqual(expected, actual);
         }
 
-
         [Test]
-        public void DoesFileExistByPath()
+        [TestCase(7, 10, 4, 12, new int[] { 2, 3, -1 }, new int[] { -3, 1, -2 })]
+        public void AppleAndOrangeCountTest(int s, int t, int a, int b, int[] apples, int[] oranges)
         {
-            //TODO: Implement logic where you should check if fileName exists by path,
-            //You will have two parameters: filename and some directory
-            //File can be placed in any folder under directory
-            //You should return path to the file or null if it was not found.
-            //Cover it by unit tests
-
             //Arrange
 
             //Act
+            Tuple<int, int> actual = AppleOrangeFall.CountApplesAndOranges(s, t, a, b, apples, oranges);
 
             //Assert
-            Assert.IsTrue(false);
+           
+        }
+
+        [Test]
+        [TestCase(0, 2, 5, 3, "NO")]
+        [TestCase(4524, 8092, 4523, 8076, "NO")]
+        [TestCase(0, 3, 4, 2, "YES")]
+        [TestCase(4523, 8092, 9419, 8076, "YES")]
+        public void KangasJumpTest(int x1, int v1, int x2, int v2, string expected)
+        {
+            //Arrange
+
+            //Act
+            string actual = Kangaroo.CanMeetAtOnePoint(x1, v1, x2, v2);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+
+        [Test]
+        [TestCase("ExpectedFile.txt",  "TestData", @"TestData\TestFolder0\TestFolder2\ExpectedFile.txt")]
+        [TestCase("ExpectedFile1.txt", "TestData", "")]
+        [TestCase("ExpectedFile.txt", @"TestData\TestFolder0\TestFolder1", "")]
+        [TestCase("ExpectedFile.txt", @"C:\TEMP\Temp0\Temp1", "")]
+        public void DoesFileExistByPath(string searchFile, string rootSearchFolder, string expectedResult)
+        {
+            //Arrange
+            expectedResult = expectedResult.Equals(string.Empty) ? null : Path.Combine(TestContext.CurrentContext.TestDirectory, expectedResult);
+            var rootDirectory = rootSearchFolder.Contains(":") ? rootSearchFolder : Path.Combine(TestContext.CurrentContext.TestDirectory, rootSearchFolder);
+
+            //Act
+            var actualResult = FindFile.GetFileByRootDirectory(searchFile, rootDirectory);
+            
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
 

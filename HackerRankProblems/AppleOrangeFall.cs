@@ -17,7 +17,7 @@ namespace HackerRankProblems
         /// <param name="b">Orange tree position</param>
         /// <param name="apples">Apples fall distance</param>
         /// <param name="oranges">Oranges fall distance</param>
-        public static void CountApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges)
+        public static Tuple<int, int> CountApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges)
         {
             int fallApplesCount = 0;
             int fallOrangesCount = 0;
@@ -38,8 +38,7 @@ namespace HackerRankProblems
                 }
             }
 
-            //Console.WriteLine(fallApplesCount);
-            //Console.WriteLine(fallOrangesCount);
+            return new Tuple<int, int>(fallApplesCount, fallOrangesCount);
         }
 
     }

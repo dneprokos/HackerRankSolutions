@@ -46,6 +46,7 @@
     <Compile Include="BirthdayCakeCandles.cs" />
     <Compile Include="DiagonalDifferenceProblem.cs" />
     <Compile Include="Exceptions\DateFormatNotFoundException.cs" />
+    <Compile Include="FindFile.cs" />
     <Compile Include="GradingStudents.cs" />
     <Compile Include="IsTwin.cs" />
     <Compile Include="Kangaroo.cs" />
@@ -54,6 +55,15 @@
     <Compile Include="Staircase.cs" />
     <Compile Include="TimeConversion.cs" />
     <Compile Include="UniqueCollection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestData\TestFolder0\TestFolder1\NewFile.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\TestFolder0\TestFolder2\ExpectedFile.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestData\TestFolder0\TestFolder2\TestFolder3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
