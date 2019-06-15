@@ -46,6 +46,7 @@
     <Compile Include="BirthdayCakeCandles.cs" />
     <Compile Include="DiagonalDifferenceProblem.cs" />
     <Compile Include="Exceptions\DateFormatNotFoundException.cs" />
+    <Compile Include="ExtensionExamples.cs" />
     <Compile Include="FindFile.cs" />
     <Compile Include="GradingStudents.cs" />
     <Compile Include="IsTwin.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Staircase.cs" />
     <Compile Include="TimeConversion.cs" />
     <Compile Include="UniqueCollection.cs" />
+    <Compile Include="VersionComparer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TestData\TestFolder0\TestFolder1\NewFile.txt">
