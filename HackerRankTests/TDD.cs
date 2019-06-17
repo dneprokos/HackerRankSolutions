@@ -3,6 +3,7 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 namespace HackerRankTests
 {
@@ -263,6 +264,58 @@ namespace HackerRankTests
 
             //Assert
             Assert.AreEqual(expectedResult, actual);
+        }
+
+        [Test]
+        public void ValueTypeAsReferenceTest()
+        {
+            //Arrange
+            int a = 2;
+
+            //Act
+            var b = SquareValue.PerformSquare(a);
+
+            //Assert
+            Assert.AreEqual(4, b);
+        }
+
+        [Test]
+        public void MyCustomGenericTest()
+        {
+            //Arrange
+            var maxCount = 2;
+            var object1 = new MyCustomGeneric<string>("Test", maxCount);
+
+            //Act
+            object1.Add("Test2");
+            var object2 = object1.CloneObject();
+
+            //Assert
+            Assert.AreEqual(maxCount, object1.currentCount);
+            Assert.AreEqual(maxCount, object1.maxObjectsCount);
+            Assert.AreEqual("Test2", object1.GetData(1));
+            Assert.AreEqual(typeof(string), object1.GetDataType());
+            Assert.AreEqual(object1.GetData(1), object2.GetData(1));
+        }
+
+        [Test]
+        public void MyCustomGenericThrowsExceptionTest()
+        {
+            //Arrange
+            var maxCount = 1;
+            var myCustomGeneric = new MyCustomGeneric<string>("Test", maxCount);
+            var expectedException = 
+                String.Format($"You cannot add more than maximum number {0} of elements", myCustomGeneric.maxObjectsCount).ToString();            
+            try
+            {
+                //Act
+                myCustomGeneric.Add("Test2");
+            }
+            catch (Exception ex)
+            {
+                //Assert
+                Assert.AreEqual(expectedException, ex.Message);
+            }           
         }
 
 
