@@ -51,6 +51,7 @@
     <Compile Include="GradingStudents.cs" />
     <Compile Include="IsTwin.cs" />
     <Compile Include="Kangaroo.cs" />
+    <Compile Include="Migratory.cs" />
     <Compile Include="MiniMaxSum.cs" />
     <Compile Include="MyCustomGeneric.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
