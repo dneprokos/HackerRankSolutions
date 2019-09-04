@@ -45,6 +45,7 @@
     <Compile Include="AppleOrangeFall.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />
     <Compile Include="DiagonalDifferenceProblem.cs" />
+    <Compile Include="DrawingBook.cs" />
     <Compile Include="Exceptions\DateFormatNotFoundException.cs" />
     <Compile Include="ExtensionExamples.cs" />
     <Compile Include="FindFile.cs" />
