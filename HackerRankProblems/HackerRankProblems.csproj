@@ -41,26 +41,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AggregationOperations.cs" />
-    <Compile Include="AppleOrangeFall.cs" />
-    <Compile Include="BirthdayCakeCandles.cs" />
-    <Compile Include="DiagonalDifferenceProblem.cs" />
-    <Compile Include="DrawingBook.cs" />
+    <Compile Include="Implementations\AggregationOperations.cs" />
+    <Compile Include="Implementations\AppleOrangeFall.cs" />
+    <Compile Include="Implementations\BirthdayCakeCandles.cs" />
+    <Compile Include="Implementations\DiagonalDifferenceProblem.cs" />
+    <Compile Include="Implementations\DrawingBook.cs" />
     <Compile Include="Exceptions\DateFormatNotFoundException.cs" />
-    <Compile Include="ExtensionExamples.cs" />
-    <Compile Include="FindFile.cs" />
-    <Compile Include="GradingStudents.cs" />
-    <Compile Include="IsTwin.cs" />
-    <Compile Include="Kangaroo.cs" />
-    <Compile Include="Migratory.cs" />
-    <Compile Include="MiniMaxSum.cs" />
-    <Compile Include="MyCustomGeneric.cs" />
+    <Compile Include="Implementations\ExtensionExamples.cs" />
+    <Compile Include="Implementations\FindFile.cs" />
+    <Compile Include="Implementations\FindNumber.cs" />
+    <Compile Include="Implementations\GradingStudents.cs" />
+    <Compile Include="Implementations\IsTwin.cs" />
+    <Compile Include="Implementations\Kangaroo.cs" />
+    <Compile Include="Implementations\LongestEvenWord.cs" />
+    <Compile Include="Implementations\Migratory.cs" />
+    <Compile Include="Implementations\MiniMaxSum.cs" />
+    <Compile Include="Implementations\MyCustomGeneric.cs" />
+    <Compile Include="Implementations\OddNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SquareValue.cs" />
-    <Compile Include="Staircase.cs" />
-    <Compile Include="TimeConversion.cs" />
-    <Compile Include="UniqueCollection.cs" />
-    <Compile Include="VersionComparer.cs" />
+    <Compile Include="Implementations\SquareValue.cs" />
+    <Compile Include="Implementations\Staircase.cs" />
+    <Compile Include="Implementations\TimeConversion.cs" />
+    <Compile Include="Implementations\UniqueCollection.cs" />
+    <Compile Include="Implementations\VersionComparer.cs" />
+    <Compile Include="Implementations\Winner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TestData\TestFolder0\TestFolder1\NewFile.txt">
