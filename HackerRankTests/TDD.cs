@@ -1,4 +1,5 @@
 ﻿using HackerRankProblems;
+using HackerRankProblems.Implementations;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -402,5 +403,38 @@ namespace HackerRankTests
             //Assert
             Assert.AreEqual(expectedRes, result);
         }
+
+        [Test]
+        [TestCase(new int[] { 12, 24, 10, 24 }, new int[] { 1, 1 })]
+        [TestCase(new int[] { 3, 4, 21, 36, 10, 28, 35, 5, 24, 42, }, new int[] { 4, 0 })]
+        [TestCase(new int[] { 10, 5, 20, 20, 4, 5, 2, 25, 1 }, new int[] { 2, 4 })]
+        [TestCase(new int[] { 10, 10, 10 }, new int[] { 0, 0 })]
+        public void BreackingTheRecordsTest(int [] gameScores, int [] expectedRes)
+        {
+            //Arrange
+
+            //Act
+            int [] result = BreackingRecords.BreakingRecords(gameScores);
+
+            //Assert
+            CollectionAssert.AreEqual(expectedRes, result);
+        }
+
+        [Test]
+        [TestCase(new int[] { 1, 2, 1, 3, 2, }, 3, 2, 2)]
+        [TestCase(new int[] { 1, 1, 1, 1, 1, 1 }, 3, 2, 0)]
+        [TestCase(new int[] { 4 }, 4, 1, 1)]
+        [TestCase(new int[] { 2, 5, 1, 3, 4, 4, 3, 5, 1, 1, 2, 1, 4, 1, 3, 3, 4, 2, 1 }, 18, 7, 3)]         
+        public void BirthdayChocolateTest(int[] squares, int day, int month, int expectedRes)
+        {
+            //Arrange
+
+            //Act
+            int result = BirthdayChocolate.Birthday(squares.ToList(), day, month);
+
+            //Assert
+            Assert.AreEqual(expectedRes, result);
+        }
     }
 }
+
