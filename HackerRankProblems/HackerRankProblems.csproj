@@ -44,6 +44,8 @@
     <Compile Include="Implementations\AggregationOperations.cs" />
     <Compile Include="Implementations\AppleOrangeFall.cs" />
     <Compile Include="Implementations\BirthdayCakeCandles.cs" />
+    <Compile Include="Implementations\BirthdayChocolate.cs" />
+    <Compile Include="Implementations\BreackingRecords.cs" />
     <Compile Include="Implementations\DiagonalDifferenceProblem.cs" />
     <Compile Include="Implementations\DrawingBook.cs" />
     <Compile Include="Exceptions\DateFormatNotFoundException.cs" />
