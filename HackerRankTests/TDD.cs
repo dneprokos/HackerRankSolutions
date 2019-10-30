@@ -204,7 +204,7 @@ namespace HackerRankTests
         [TestCase("ExpectedFile.txt",  "TestData", @"TestData\TestFolder0\TestFolder2\ExpectedFile.txt")]
         [TestCase("ExpectedFile1.txt", "TestData", "")]
         [TestCase("ExpectedFile.txt", @"TestData\TestFolder0\TestFolder1", "")]
-        [TestCase("ExpectedFile.txt", @"C:\TEMP\Temp0\Temp1", "")]
+        //[TestCase("ExpectedFile.txt", @"C:\TEMP\Temp0\Temp1", "")]
         public void DoesFileExistByPath(string searchFile, string rootSearchFolder, string expectedResult)
         {
             //Arrange
