@@ -12,6 +12,9 @@ namespace HackerRankProblems.Implementations
 
         public static string GetDayWithTemperatureNearToWeekAverage(int [] weekdayTemperatures)
         {
+            if (weekdayTemperatures.Length < 7 || weekdayTemperatures.Length > 7)
+                throw new Exception("Array should contain 7 elements");
+            
             var expectedDay = string.Empty;
             var minTempDiff = 0;
             int averageWeekTemp = weekdayTemperatures.Sum()/weekdayTemperatures.Count();

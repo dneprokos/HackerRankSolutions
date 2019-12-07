@@ -4,4 +4,3 @@ C:\PersonalProjects\HackerRankProblems\HackerRankProblems\obj\Debug\HackerRankPr
 C:\PersonalProjects\HackerRankProblems\HackerRankProblems\obj\Debug\HackerRankProblems.dll
 C:\PersonalProjects\HackerRankProblems\HackerRankProblems\obj\Debug\HackerRankProblems.pdb
 C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\TestData\TestFolder0\TestFolder1\NewFile.txt
-C:\PersonalProjects\HackerRankProblems\HackerRankProblems\obj\Debug\HackerRankProblems.csprojAssemblyReference.cache

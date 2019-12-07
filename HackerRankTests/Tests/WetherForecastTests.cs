@@ -1,6 +1,7 @@
 ﻿using HackerRankProblems.Implementations;
 using HackerRankTests.Infrostructure;
 using NUnit.Framework;
+using System;
 
 namespace HackerRankTests.Tests
 {
@@ -23,6 +24,30 @@ namespace HackerRankTests.Tests
 
             //Assert
             Assert.AreEqual(expectedDay, actualDay);
+        }
+
+        [Test]      
+        [TestCase(new int[] { 1, 2, 1, 1, 1, 1 })]
+        [TestCase(new int[] { 1, 2, 1, 1, 1, 1, 1, 2 })]
+        [TestCase(new int[0])]
+        public void GetDayWithTemperatureNearToWeekAverage_NotFullWeekDays_ShouldThrowException(int[] weekTemperature)
+        {
+            //Arrange
+
+            try
+            {
+                //Act
+                WeatherForecast.GetDayWithTemperatureNearToWeekAverage(weekTemperature);
+            }
+            catch (Exception ex)
+            {
+                //Assert
+                Assert.AreEqual("Array should contain 7 elements", ex.Message);
+            }
+
+
+
+
         }
     }
 }
