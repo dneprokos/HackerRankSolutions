@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\NUnit.3.11.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.11.0\build\NUnit.props')" />
+  <Import Project="..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -39,15 +39,39 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework, Version=3.11.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infrostructure\TestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TDD.cs" />
+    <Compile Include="Tests\AddHelloExtensionTests.cs" />
+    <Compile Include="Tests\AggregationOperationsTests.cs" />
+    <Compile Include="Tests\AppleOrangeFallTests.cs" />
+    <Compile Include="Tests\BirthdayCakeCandlesTests.cs" />
+    <Compile Include="Tests\BirthdayChocolateTests.cs" />
+    <Compile Include="Tests\BreackingRecordsTests.cs" />
+    <Compile Include="Tests\DiagonalDifferenceProblemTests.cs" />
+    <Compile Include="Tests\DivisibleSumPairsClassTests.cs" />
+    <Compile Include="Tests\DrawingBookTests.cs" />
+    <Compile Include="Tests\FindFileTests.cs" />
+    <Compile Include="Tests\FindNumberTests.cs" />
+    <Compile Include="Tests\GradingStudentsTests.cs" />
+    <Compile Include="Tests\IsTwinTests.cs" />
+    <Compile Include="Tests\KangarooTests.cs" />
+    <Compile Include="Tests\LongestEvenWordTests.cs" />
+    <Compile Include="Tests\MigratoryTests.cs" />
+    <Compile Include="Tests\MiniMaxSumTests.cs" />
+    <Compile Include="Tests\MyCustomGenericTests.cs" />
+    <Compile Include="Tests\SquareValueTests.cs" />
+    <Compile Include="Tests\StrairCaseTests.cs" />
+    <Compile Include="Tests\TimeConversionTests.cs" />
+    <Compile Include="Tests\UniqueCollectionTests.cs" />
+    <Compile Include="Tests\VersionComparerTests.cs" />
+    <Compile Include="Tests\WinnerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -73,6 +97,6 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\NUnit.3.11.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.11.0\build\NUnit.props'))" />
+    <Error Condition="!Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.12.0\build\NUnit.props'))" />
   </Target>
 </Project>

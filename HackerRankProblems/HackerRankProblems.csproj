@@ -47,6 +47,7 @@
     <Compile Include="Implementations\BirthdayChocolate.cs" />
     <Compile Include="Implementations\BreackingRecords.cs" />
     <Compile Include="Implementations\DiagonalDifferenceProblem.cs" />
+    <Compile Include="Implementations\DivisibleSumPairsClass.cs" />
     <Compile Include="Implementations\DrawingBook.cs" />
     <Compile Include="Exceptions\DateFormatNotFoundException.cs" />
     <Compile Include="Implementations\ExtensionExamples.cs" />
