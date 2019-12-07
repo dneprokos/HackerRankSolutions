@@ -71,6 +71,7 @@
     <Compile Include="Tests\TimeConversionTests.cs" />
     <Compile Include="Tests\UniqueCollectionTests.cs" />
     <Compile Include="Tests\VersionComparerTests.cs" />
+    <Compile Include="Tests\WetherForecastTests.cs" />
     <Compile Include="Tests\WinnerTests.cs" />
   </ItemGroup>
   <ItemGroup>

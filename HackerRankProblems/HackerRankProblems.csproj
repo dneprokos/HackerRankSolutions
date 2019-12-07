@@ -61,6 +61,7 @@
     <Compile Include="Implementations\MiniMaxSum.cs" />
     <Compile Include="Implementations\MyCustomGeneric.cs" />
     <Compile Include="Implementations\OddNumbers.cs" />
+    <Compile Include="Implementations\WeatherForecast.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Implementations\SquareValue.cs" />
     <Compile Include="Implementations\Staircase.cs" />
