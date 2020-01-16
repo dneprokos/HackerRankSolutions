@@ -53,6 +53,7 @@
     <Compile Include="Tests\AppleOrangeFallTests.cs" />
     <Compile Include="Tests\BirthdayCakeCandlesTests.cs" />
     <Compile Include="Tests\BirthdayChocolateTests.cs" />
+    <Compile Include="Tests\BonAppetitProblemTests.cs" />
     <Compile Include="Tests\BreackingRecordsTests.cs" />
     <Compile Include="Tests\DiagonalDifferenceProblemTests.cs" />
     <Compile Include="Tests\DivisibleSumPairsClassTests.cs" />
@@ -66,6 +67,8 @@
     <Compile Include="Tests\MigratoryTests.cs" />
     <Compile Include="Tests\MiniMaxSumTests.cs" />
     <Compile Include="Tests\MyCustomGenericTests.cs" />
+    <Compile Include="Tests\PlayWithStringTests.cs" />
+    <Compile Include="Tests\IncrementTests.cs" />
     <Compile Include="Tests\SquareValueTests.cs" />
     <Compile Include="Tests\StrairCaseTests.cs" />
     <Compile Include="Tests\TimeConversionTests.cs" />
