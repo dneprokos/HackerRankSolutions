@@ -20,5 +20,16 @@ namespace HackerRankProblems.Implementations
             else
                 Console.WriteLine(result);
         }
+
+        public static void BonAppetit(int [] bill, int k, int b)
+        {
+            bill.ToList().RemoveAt(k);
+            int result = b - bill.Sum() / 2;
+
+            if (result == 0)
+                Console.WriteLine(okResult);
+            else
+                Console.WriteLine(result);
+        }
     }
 }

@@ -21,6 +21,7 @@ namespace HackerRankTests.Tests
                 Console.SetOut(stringWriter);
 
                 BonAppetitProblem.BonAppetit(bill.ToList(), k, b);
+
                 actualResult = stringWriter
                     .ToString()
                     .Split(new string[] { "\r", "\n" }, StringSplitOptions.None)
