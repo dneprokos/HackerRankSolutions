@@ -52,6 +52,7 @@
     <Compile Include="Implementations\BonAppetitProblem.cs" />
     <Compile Include="Implementations\BreackingRecords.cs" />
     <Compile Include="Implementations\CountingValleysProblem.cs" />
+    <Compile Include="Implementations\DayOfTheProgrammer.cs" />
     <Compile Include="Implementations\DiagonalDifferenceProblem.cs" />
     <Compile Include="Implementations\DivisibleSumPairsClass.cs" />
     <Compile Include="Implementations\DrawingBook.cs" />
