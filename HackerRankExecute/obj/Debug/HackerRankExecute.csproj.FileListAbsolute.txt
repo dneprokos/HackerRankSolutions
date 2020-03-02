@@ -1,7 +1,6 @@
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\HackerRankExecute.exe.config
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\HackerRankExecute.exe
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\HackerRankExecute.pdb
-C:\PersonalProjects\HackerRankProblems\HackerRankExecute\obj\Debug\HackerRankExecute.csproj.CoreCompileInputs.cache
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\obj\Debug\HackerRankExecute.exe
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\obj\Debug\HackerRankExecute.pdb
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\TestData\TestFolder0\TestFolder1\NewFile.txt
@@ -12,3 +11,9 @@ C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\HtmlAgilityPa
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\HtmlAgilityPack.xml
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\obj\Debug\HackerRankExecute.csprojAssemblyReference.cache
 C:\PersonalProjects\HackerRankProblems\HackerRankExecute\obj\Debug\HackerRankExecute.csproj.CopyComplete
+C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\Flurl.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\Flurl.Http.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\Newtonsoft.Json.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\Flurl.xml
+C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\Flurl.Http.xml
+C:\PersonalProjects\HackerRankProblems\HackerRankExecute\bin\Debug\Newtonsoft.Json.xml

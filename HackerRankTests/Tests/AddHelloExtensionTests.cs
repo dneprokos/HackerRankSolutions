@@ -26,7 +26,7 @@ namespace HackerRankTests.Tests
         [TestCase(4, 2)]
         [TestCase(1, 0.5)]
         [TestCase(0, 0)]
-        public void DevideByTwo_ShouldReturnValueDevidedByTwo(Double originalValue, double expectedResult)
+        public void DevideByTwo_ShouldReturnValueDevidedByTwo(double originalValue, double expectedResult)
         {
             //Arrange
 

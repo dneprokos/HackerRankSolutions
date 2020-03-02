@@ -31,8 +31,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Flurl, Version=2.8.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.2.8.2\lib\net40\Flurl.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl.Http, Version=2.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.Http.2.4.2\lib\net46\Flurl.Http.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.11.17.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlAgilityPack.1.11.17\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,22 +62,26 @@
     <Compile Include="Implementations\BreackingRecords.cs" />
     <Compile Include="Implementations\CountingValleysProblem.cs" />
     <Compile Include="Implementations\DayOfTheProgrammer.cs" />
+    <Compile Include="Implementations\Deviation.cs" />
     <Compile Include="Implementations\DiagonalDifferenceProblem.cs" />
     <Compile Include="Implementations\DivisibleSumPairsClass.cs" />
     <Compile Include="Implementations\DrawingBook.cs" />
     <Compile Include="Exceptions\DateFormatNotFoundException.cs" />
+    <Compile Include="Implementations\ElectronicsShop.cs" />
     <Compile Include="Implementations\EsoServer.cs" />
     <Compile Include="Implementations\ExtensionExamples.cs" />
     <Compile Include="Implementations\FindFile.cs" />
     <Compile Include="Implementations\FindNumber.cs" />
     <Compile Include="Implementations\GradingStudents.cs" />
     <Compile Include="Implementations\IsTwin.cs" />
+    <Compile Include="Implementations\JumpingOnTheClouds.cs" />
     <Compile Include="Implementations\Kangaroo.cs" />
     <Compile Include="Implementations\LongestEvenWord.cs" />
     <Compile Include="Implementations\Migratory.cs" />
     <Compile Include="Implementations\MiniMaxSum.cs" />
     <Compile Include="Implementations\MyCustomGeneric.cs" />
     <Compile Include="Implementations\OddNumbers.cs" />
+    <Compile Include="Implementations\RandomIntegersService.cs" />
     <Compile Include="Implementations\SockMerchantProblem.cs" />
     <Compile Include="Implementations\WeatherForecast.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

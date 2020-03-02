@@ -80,11 +80,13 @@
     <Compile Include="Tests\DiagonalDifferenceProblemTests.cs" />
     <Compile Include="Tests\DivisibleSumPairsClassTests.cs" />
     <Compile Include="Tests\DrawingBookTests.cs" />
+    <Compile Include="Tests\ElectronicsShopTests.cs" />
     <Compile Include="Tests\EsoServerTests.cs" />
     <Compile Include="Tests\FindFileTests.cs" />
     <Compile Include="Tests\FindNumberTests.cs" />
     <Compile Include="Tests\GradingStudentsTests.cs" />
     <Compile Include="Tests\IsTwinTests.cs" />
+    <Compile Include="Tests\JumpingOnCloudsTests.cs" />
     <Compile Include="Tests\KangarooTests.cs" />
     <Compile Include="Tests\LongestEvenWordTests.cs" />
     <Compile Include="Tests\MigratoryTests.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="Tests\MyCustomGenericTests.cs" />
     <Compile Include="Tests\PlayWithStringTests.cs" />
     <Compile Include="Tests\IncrementTests.cs" />
+    <Compile Include="Tests\DeviationTests.cs" />
     <Compile Include="Tests\SockMerchantProblemTests.cs" />
     <Compile Include="Tests\SquareValueTests.cs" />
     <Compile Include="Tests\StrairCaseTests.cs" />

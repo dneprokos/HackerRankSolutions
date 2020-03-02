@@ -7,4 +7,10 @@ C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\HtmlAgilityP
 C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\HtmlAgilityPack.pdb
 C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\HtmlAgilityPack.xml
 C:\PersonalProjects\HackerRankProblems\HackerRankProblems\obj\Debug\HackerRankProblems.csproj.CopyComplete
+C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\Flurl.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\Flurl.Http.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\Newtonsoft.Json.dll
+C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\Flurl.xml
+C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\Flurl.Http.xml
+C:\PersonalProjects\HackerRankProblems\HackerRankProblems\bin\Debug\Newtonsoft.Json.xml
 C:\PersonalProjects\HackerRankProblems\HackerRankProblems\obj\Debug\HackerRankProblems.csprojAssemblyReference.cache
