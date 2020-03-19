@@ -16,10 +16,12 @@ namespace HackerRankTests.Tests
         {
             //Arrange
             expectedResult = expectedResult.Equals(string.Empty) ? null : Path.Combine(TestContext.CurrentContext.TestDirectory, expectedResult);
-            var rootDirectory = rootSearchFolder.Contains(":") ? rootSearchFolder : Path.Combine(TestContext.CurrentContext.TestDirectory, rootSearchFolder);
+            var rootDirectory = rootSearchFolder.Contains(":") ? 
+                rootSearchFolder : 
+                Path.Combine(TestContext.CurrentContext.TestDirectory, rootSearchFolder);
 
             //Act
-            var actualResult = FindFile.GetFileByRootDirectory(searchFile, rootDirectory);
+            var actualResult = FileHelper.GetFilePath(searchFile, rootDirectory);
 
             //Assert
             Assert.AreEqual(expectedResult, actualResult);

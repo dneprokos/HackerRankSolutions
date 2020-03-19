@@ -95,6 +95,7 @@
     <Compile Include="Tests\PlayWithStringTests.cs" />
     <Compile Include="Tests\IncrementTests.cs" />
     <Compile Include="Tests\DeviationTests.cs" />
+    <Compile Include="Tests\RepeatedStringChalangeTests.cs" />
     <Compile Include="Tests\SockMerchantProblemTests.cs" />
     <Compile Include="Tests\SquareValueTests.cs" />
     <Compile Include="Tests\StrairCaseTests.cs" />

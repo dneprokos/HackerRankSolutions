@@ -70,7 +70,7 @@
     <Compile Include="Implementations\ElectronicsShop.cs" />
     <Compile Include="Implementations\EsoServer.cs" />
     <Compile Include="Implementations\ExtensionExamples.cs" />
-    <Compile Include="Implementations\FindFile.cs" />
+    <Compile Include="Implementations\FileHelper.cs" />
     <Compile Include="Implementations\FindNumber.cs" />
     <Compile Include="Implementations\GradingStudents.cs" />
     <Compile Include="Implementations\IsTwin.cs" />
@@ -82,6 +82,7 @@
     <Compile Include="Implementations\MyCustomGeneric.cs" />
     <Compile Include="Implementations\OddNumbers.cs" />
     <Compile Include="Implementations\RandomIntegersService.cs" />
+    <Compile Include="Implementations\RepeatedStringChalange.cs" />
     <Compile Include="Implementations\SockMerchantProblem.cs" />
     <Compile Include="Implementations\WeatherForecast.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
