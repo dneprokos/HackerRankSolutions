@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace HackerRankProblems.Implementations
 {
-    public class RepeatedStringChalange
+    public class RepeatedStringChallenge
     {
         public static long RepeatedString(string s, long n)
         {
@@ -20,7 +20,7 @@ namespace HackerRankProblems.Implementations
 
             long result = aCount * mainChars;
 
-            string subString = s.Substring(0, leftChars);
+            string subString = s.Substring(0, (int)leftChars);
 
             char[] charArray2 = subString.ToCharArray();
             Array.Sort(charArray2);
