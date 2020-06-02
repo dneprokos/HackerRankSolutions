@@ -86,6 +86,7 @@
     <Compile Include="Tests\FindNumberTests.cs" />
     <Compile Include="Tests\GradingStudentsTests.cs" />
     <Compile Include="Tests\InterviewPreparationKit\Arrays\LeftRotationTests.cs" />
+    <Compile Include="Tests\InterviewPreparationKit\Strings\AlternatingCharactersChallengeTests.cs" />
     <Compile Include="Tests\IsTwinTests.cs" />
     <Compile Include="Tests\JumpingOnCloudsTests.cs" />
     <Compile Include="Tests\KangarooTests.cs" />

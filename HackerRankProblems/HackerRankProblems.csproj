@@ -74,6 +74,7 @@
     <Compile Include="Implementations\FindNumber.cs" />
     <Compile Include="Implementations\GradingStudents.cs" />
     <Compile Include="Implementations\InterviewPreparationKit\Arrays\LeftRotation.cs" />
+    <Compile Include="Implementations\InterviewPreparationKit\Strings\AlternatingCharactersChallenge.cs" />
     <Compile Include="Implementations\IsTwin.cs" />
     <Compile Include="Implementations\JumpingOnTheClouds.cs" />
     <Compile Include="Implementations\Kangaroo.cs" />

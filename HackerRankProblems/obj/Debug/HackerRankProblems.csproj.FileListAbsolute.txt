@@ -26,7 +26,6 @@ C:\PersonalProjects\HackerRankSolutions\HackerRankProblems\bin\Debug\Flurl.Http.
 C:\PersonalProjects\HackerRankSolutions\HackerRankProblems\bin\Debug\HtmlAgilityPack.pdb
 C:\PersonalProjects\HackerRankSolutions\HackerRankProblems\bin\Debug\HtmlAgilityPack.xml
 C:\PersonalProjects\HackerRankSolutions\HackerRankProblems\bin\Debug\Newtonsoft.Json.xml
-C:\PersonalProjects\HackerRankSolutions\HackerRankProblems\obj\Debug\HackerRankProblems.csproj.CoreCompileInputs.cache
 C:\PersonalProjects\HackerRankSolutions\HackerRankProblems\obj\Debug\HackerRankProblems.csproj.CopyComplete
 C:\PersonalProjects\HackerRankSolutions\HackerRankProblems\obj\Debug\HackerRankProblems.dll
 C:\PersonalProjects\HackerRankSolutions\HackerRankProblems\obj\Debug\HackerRankProblems.pdb
