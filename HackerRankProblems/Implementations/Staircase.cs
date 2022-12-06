@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public static class Staircase
     {

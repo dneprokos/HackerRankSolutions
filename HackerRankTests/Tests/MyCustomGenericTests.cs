@@ -1,7 +1,7 @@
-﻿using HackerRankProblems;
-using HackerRankTests.Infrostructure;
+﻿using HackerRankTests.Infrostructure;
 using NUnit.Framework;
 using System;
+using HackerRankProblems.Implementations;
 
 namespace HackerRankTests.Tests
 {
@@ -20,8 +20,8 @@ namespace HackerRankTests.Tests
             var object2 = object1.CloneObject();
 
             //Assert
-            Assert.AreEqual(maxCount, object1.currentCount);
-            Assert.AreEqual(maxCount, object1.maxObjectsCount);
+            Assert.AreEqual(maxCount, object1.CurrentCount);
+            Assert.AreEqual(maxCount, object1.MaxObjectsCount);
             Assert.AreEqual("Test2", object1.GetData(1));
             Assert.AreEqual(typeof(string), object1.GetDataType());
             Assert.AreEqual(object1.GetData(1), object2.GetData(1));
@@ -31,10 +31,10 @@ namespace HackerRankTests.Tests
         public void MyCustomGeneric_ShouldThrowsExceptionIfArrayOverLimit()
         {
             //Arrange
-            var maxCount = 1;
+            const int maxCount = 1;
             var myCustomGeneric = new MyCustomGeneric<string>("Test", maxCount);
             var expectedException =
-                String.Format($"You cannot add more than maximum number {0} of elements", myCustomGeneric.maxObjectsCount).ToString();
+                $"You cannot add more than maximum number {myCustomGeneric.MaxObjectsCount} of elements".ToString();
             try
             {
                 //Act

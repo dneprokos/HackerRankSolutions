@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public class BirthdayCakeCandles
     {

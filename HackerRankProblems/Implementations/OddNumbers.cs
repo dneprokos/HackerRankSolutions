@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public static class OddNumbers
     {
-        static List<int> find(int l, int r)
+        static List<int> Find(int l, int r)
         {
             List<int> result = new List<int>();
 

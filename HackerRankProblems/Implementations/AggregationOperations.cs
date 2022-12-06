@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public class AggregationOperations
     {
