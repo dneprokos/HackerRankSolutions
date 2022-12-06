@@ -1,4 +1,4 @@
-﻿using HackerRankProblems;
+﻿using HackerRankProblems.Implementations;
 using HackerRankTests.Infrostructure;
 using NUnit.Framework;
 

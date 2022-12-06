@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public static class Winner
     {
         public static string Calculate(string erica, string bob)
         {
-            List<Char> ericaChars = erica.ToCharArray().ToList();
-            List<Char> bobChars = bob.ToCharArray().ToList();
+            List<char> ericaChars = erica.ToCharArray().ToList();
+            List<char> bobChars = bob.ToCharArray().ToList();
 
             int ericaScore = 0;
             int bobScore = 0;

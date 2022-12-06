@@ -1,7 +1,7 @@
-﻿using HackerRankProblems;
-using HackerRankTests.Infrostructure;
+﻿using HackerRankTests.Infrostructure;
 using NUnit.Framework;
 using System.Collections.Generic;
+using HackerRankProblems.Implementations;
 
 namespace HackerRankTests.Tests
 {

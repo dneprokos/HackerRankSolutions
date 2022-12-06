@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
    /* Consider a string, sentence, of space-separated words where each word is a substring consisting 
     * of English alphabetic letters only.We want to find the first word in sentence whose length 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public static class IsTwin
     {

@@ -1,8 +1,8 @@
-﻿using HackerRankProblems.Exceptions;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using HackerRankProblems.Exceptions;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public static class TimeConversion
     {

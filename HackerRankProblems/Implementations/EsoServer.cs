@@ -11,7 +11,7 @@ namespace HackerRankProblems.Implementations
 {
     public class EsoServer
     {
-        const string endPointUrl = "https://esoserverstatus.net/";
+        private const string EndPointUrl = "https://esoserverstatus.net/";
 
 
         public static Dictionary<string, string> GetEsoServersStatuses()
@@ -40,7 +40,7 @@ namespace HackerRankProblems.Implementations
         {
             try
             {
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(endPointUrl);
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(EndPointUrl);
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
                 Stream receiveStream = response.GetResponseStream();

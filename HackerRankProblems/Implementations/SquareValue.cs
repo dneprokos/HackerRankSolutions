@@ -1,4 +1,4 @@
-﻿namespace HackerRankProblems
+﻿namespace HackerRankProblems.Implementations
 {
     public static class SquareValue
     {

@@ -21,7 +21,7 @@ namespace HackerRankProblems.Implementations
                 .GetAsync()
                 .ConfigureAwait(false);
 
-            return await result.Content
+            return await result.ResponseMessage.Content
                 .ReadAsStringAsync()
                 .ConfigureAwait(false);         
         }

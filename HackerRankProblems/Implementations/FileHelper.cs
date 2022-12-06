@@ -1,7 +1,6 @@
 ﻿using System.IO;
 
-
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public static class FileHelper
     {

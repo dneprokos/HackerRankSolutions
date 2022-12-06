@@ -1,60 +1,59 @@
 ﻿using System;
-using System.Text;
 
-namespace HackerRankProblems
+namespace HackerRankProblems.Implementations
 {
     public class MyCustomGeneric<T> where T: class 
     {
-        public int maxObjectsCount { get; }
-        public int currentCount { get; private set; }
+        public int MaxObjectsCount { get; }
+        public int CurrentCount { get; private set; }
 
-        T[] array;
+        private readonly T[] _array;
 
         public MyCustomGeneric(T value)
         {
-            array = new T[1];
-            currentCount++;
-            maxObjectsCount = 1;
-            array[0] = value;
+            _array = new T[1];
+            CurrentCount++;
+            MaxObjectsCount = 1;
+            _array[0] = value;
             
         }
 
         public MyCustomGeneric(int maxCount)
         {
-            array = new T[maxCount];
-            maxObjectsCount = maxCount;
-            currentCount++;         
+            _array = new T[maxCount];
+            MaxObjectsCount = maxCount;
+            CurrentCount++;         
         }
 
         public MyCustomGeneric(T value, int maxCount)
         {
-            array = new T[maxCount];
-            array[0] = value;
+            _array = new T[maxCount];
+            _array[0] = value;
 
-            maxObjectsCount = maxCount;
-            currentCount++;           
+            MaxObjectsCount = maxCount;
+            CurrentCount++;           
         }
 
         public void Add(T value)
         {
-            if (currentCount < maxObjectsCount)
+            if (CurrentCount < MaxObjectsCount)
             {
-                currentCount++;
-                array[currentCount - 1] = value;
+                CurrentCount++;
+                _array[CurrentCount - 1] = value;
             }   
             else
             {
-                var exceptionMessage = String.Format($"You cannot add more than maximum number {0} of elements", maxObjectsCount);
+                var exceptionMessage = $"You cannot add more than maximum number {MaxObjectsCount} of elements";
                 throw new MaximumObjectsException(exceptionMessage);
             }
         }
 
         public T GetData(int indexNumber)
         {
-            return array[indexNumber];
+            return _array[indexNumber];
         }
 
-        public System.Type GetDataType()
+        public Type GetDataType()
         {
             return typeof(T);
         }
