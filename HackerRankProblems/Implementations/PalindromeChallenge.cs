@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace HackerRankProblems.Implementations
 {
@@ -20,7 +21,26 @@ namespace HackerRankProblems.Implementations
 
         public static bool IsPalindromeSentence(string sentence, bool isCaseSensitive)
         {
-             return true;
+            // Remove all skip symbols and optionally convert to the same case
+            string cleanedSentence = new string(sentence
+                .Where(c => !_skipSymbols.Contains(c))
+                .ToArray());
+
+            if (!isCaseSensitive)
+            {
+                cleanedSentence = cleanedSentence.ToLowerInvariant();
+            }
+
+            // Check if the cleaned sentence is a palindrome
+            for (int i = 0, j = cleanedSentence.Length - 1; i < j; i++, j--)
+            {
+                if (cleanedSentence[i] != cleanedSentence[j])
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
      }
 }
