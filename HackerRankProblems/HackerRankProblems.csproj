@@ -103,6 +103,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatAndMouse.cs" />
     <Compile Include="Implementations\AggregationOperations.cs" />
     <Compile Include="Implementations\AppleOrangeFall.cs" />
     <Compile Include="Implementations\BirthdayCakeCandles.cs" />

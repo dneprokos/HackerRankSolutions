@@ -121,6 +121,7 @@
     <Compile Include="Tests\BirthdayChocolateTests.cs" />
     <Compile Include="Tests\BonAppetitProblemTests.cs" />
     <Compile Include="Tests\BreackingRecordsTests.cs" />
+    <Compile Include="Tests\CatAndMouseTests.cs" />
     <Compile Include="Tests\CountingValleysProblemTests.cs" />
     <Compile Include="Tests\DayOfTheProgrammerTests.cs" />
     <Compile Include="Tests\DiagonalDifferenceProblemTests.cs" />
